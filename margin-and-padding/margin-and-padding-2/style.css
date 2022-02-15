@@ -7,21 +7,39 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;/* instruction at line 11 of readme */
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;/* line 13 */
+  font-weight: bold;/* aise hi sexy lag raha tha */
+  padding: 8px;/* line 14 */
+  /* line 12 */
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+ margin-bottom: 8px;/* line 12 */
+ padding: 16px 8px;/* line 15 */
+
 }
 
 .button-container {
   background: #e3f4ff;
+  /* line 16 */
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;/* line 18 */
+  /* line 17 */
+  display:block;/* for new line */
+  margin:0 auto;/* for centering from both left and right sides */
+  
 }
